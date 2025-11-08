@@ -11,8 +11,8 @@ body{
 
 .container{
     border-radius: 12px;
-    box-shadow: 12px 12px 20px #cbced1,
-                -12px -12px 20px #ffffff;
+    box-shadow: 12px 12px 20px #e890f7,
+                -12px -12px 20px rgb(160, 4, 232);
     padding: 18px;
     width: 400px;     
     max-width: 92%;    
@@ -128,4 +128,5 @@ body{
         font-size: 16px;
     }
 }
+
 
