@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#e890f7, #c846f3,rgb(160, 4, 232));
+}
+
+.container{
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #cbced1,
+                -12px -12px 20px #ffffff;
+    padding: 10px;
+    width: 45%;
+    height: 45vh;
+    background: #ecf0f3 
+}
+
+.display #screen {
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;               
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+                transition: .1s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 5px 5px 8px #00000020,
+                inset -5px -5px 8px #ffffff;
+    background: #ffffff;            
+}
+
+#eval {
+    background-color: #33ccff;
+    color: white;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 8px #00ace6,
+                inset -5px 8px #00ace6;
+}
+
+#ac {
+    background-color: #33cc33;
+    color: white;
+    box-shadow: inset 5px 5px 8px #4ae04a,
+                inset -5px -5px 8px #2fa02f;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 8px #25c825,
+                inset -5px 8px #33cc33;
+}
+
+#ce {
+    background-color: #ff3399;
+    color: white;
+    box-shadow: inset 5px 5px 8px #ff3399,
+                inset -5px -5px 8px #c92074;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 8px #f8388e,
+                inset -5px 8px #ff3399;
+}
