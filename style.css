@@ -64,7 +64,6 @@ body{
     box-shadow: inset 5px 5px 8px #00000020,
                 inset -5px -5px 8px #ffffff;
     background: #ffffff;      
-    background: #ffffff; 
 }
 
 
@@ -129,5 +128,3 @@ body{
         font-size: 16px;
     }
 }
-
-
