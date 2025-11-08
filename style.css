@@ -74,6 +74,12 @@ body{
                 inset -5px -5px 8px #00ace6;
 }
 
+#eval:hover {
+    box-shadow: inset 5px 8px #00ace6,
+                inset -5px 8px #00ace6;
+}
+
+
 #ac {
     background-color: #33cc33;
     color: white;
@@ -81,11 +87,21 @@ body{
                 inset -5px -5px 8px #2fa02f;
 }
 
+#ac:hover {
+    box-shadow: inset 5px 8px #25c825,
+                inset -5px 8px #33cc33;
+}
+
 #ce {
     background-color: #ff3399;
     color: white;
     box-shadow: inset 5px 5px 8px #ff3399,
                 inset -5px -5px 8px #c92074;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 8px #f8388e,
+                inset -5px 8px #ff3399;
 }
 
 @media (max-width: 480px) {
@@ -112,3 +128,4 @@ body{
         font-size: 16px;
     }
 }
+
