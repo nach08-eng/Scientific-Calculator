@@ -5,14 +5,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#e890f7, #c846f3, rgb(160, 4, 232));
+    background: linear-gradient(#90c2f7, #4694f3, rgb(4, 129, 232));
 }
 
 
 .container{
     border-radius: 12px;
-    box-shadow: 12px 12px 20px #e890f7,
-                -12px -12px 20px rgb(160, 4, 232);
+    box-shadow: 12px 12px 20px #90c2f7,
+                -12px -12px 20px rgb(4, 129, 232)
     padding: 18px;
     width: 400px;     
     max-width: 92%;    
@@ -128,5 +128,6 @@ body{
         font-size: 16px;
     }
 }
+
 
 
